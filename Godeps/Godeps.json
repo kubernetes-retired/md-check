@@ -1,0 +1,14 @@
+{
+	"ImportPath": "k8s.io/md-check",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v74",
+	"Packages": [
+		"github.com/spf13/cobra"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "1560c1005499d61b80f865c04d39ca7505bf7f0b"
+		}
+	]
+}
