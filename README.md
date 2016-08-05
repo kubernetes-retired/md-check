@@ -2,8 +2,9 @@
 
 **Warning: This project is still in Development (not yet Alpha).**
 
-md-format is a tool for formatting and linting Kubernetes Docs in Kubernetes
-repositories.
+md-check is a tool for formatting and linting Kubernetes Docs in Kubernetes
+repositories, and is originally based on
+[mungedocs](https://github.com/kubernetes/kubernetes/tree/master/cmd/mungedocs).k
 
 ## Community, discussion, contribution, and support
 
@@ -19,3 +20,7 @@ You can reach the maintainers of this project at:
 
 Participation in the Kubernetes community is governed by the [Kubernetes Code of
 Conduct](https://github.com/kubernetes/kubernetes/blob/master/code-of-conduct.md)
+
+## Development
+
+As with all Kubernetes repos, md-check should live under a k8s.io directory.
