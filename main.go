@@ -21,10 +21,11 @@ import (
 	"os"
 	"path/filepath"
 
-	flag "github.com/spf13/pflag"
 	"k8s.io/md-check/checks"
 	"k8s.io/md-check/checks/lines"
 	"k8s.io/md-check/checks/md"
+
+	flag "github.com/spf13/pflag"
 )
 
 var (
@@ -99,10 +100,12 @@ func success() {
 	fmt.Printf(`----------------
 -- ✔ Success! --
 ----------------`)
+	os.Exit(0)
 }
 
 func fail() {
 	fmt.Printf(`-------------
 -- ✘ Fail! --
 -------------`)
+	os.Exit(1)
 }
