@@ -22,7 +22,6 @@ import (
 	"path/filepath"
 
 	"k8s.io/md-check/checks"
-	"k8s.io/md-check/checks/lines"
 	"k8s.io/md-check/checks/md"
 
 	flag "github.com/spf13/pflag"
@@ -55,7 +54,6 @@ func main() {
 		Rptr:   errReporter,
 		CheckFns: []checks.CheckFunc{
 			md.ParseCheck,
-			lines.CheckWhitespace,
 		},
 	}
 
