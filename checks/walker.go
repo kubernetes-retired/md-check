@@ -46,7 +46,7 @@ func (w *Walker) Walk() error {
 			for _, fn := range w.CheckFns {
 				checkErr := fn(w.Rptr, p, contents)
 				if checkErr != nil {
-					return checkErr // recall that returning errors stops execption
+					return checkErr // recall that returning errors stops exception
 				}
 			}
 		}
