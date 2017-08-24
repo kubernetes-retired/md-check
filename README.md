@@ -4,7 +4,7 @@
 
 md-check is a tool for formatting and linting Kubernetes Docs in Kubernetes
 repositories, and is originally based on
-[mungedocs](https://github.com/kubernetes/kubernetes/tree/master/cmd/mungedocs).
+[mungedocs](https://github.com/kubernetes/kubernetes.github.io/tree/master/_tools/mungedocs).
 
 ## Community, discussion, contribution, and support
 
